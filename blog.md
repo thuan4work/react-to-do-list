@@ -6,12 +6,13 @@ Through this tutorial you will learn how to create an To-do list with React, Vit
 
 You can see the result of **link** of the tutorial here.
 
+![react-to-do-list](https://drive.google.com/uc?export=download&id=1oQGd2YTIBDIFh0xFdtm4jIKeEOet3Iik)
+
 ## Prerequisites
 
-You will need to have `npm`, `git` and `node` installed, if not you will need to follow the instruction below:
-**link** 
-**link** 
-**link** 
+You will need to have `npm`, `git` and `node` installed, if not you will need to follow the instruction below:P
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [node](https://nodejs.org/en/download/) 
 
 ## Initial Setup
 
@@ -65,6 +66,11 @@ export default function App() {
   )
 }
 ```
+
+You can visit `localhost:5173` to see the result below:
+
+![react-to-do-list](https://drive.google.com/uc?export=download&id=1uOmclh2xS__1DfT2x5tcQcmTTiUEI_E9)
+
 ## Create Input Form
 
 We  need an input field where we can add new tasks to our ToDo list
@@ -106,7 +112,7 @@ return (
 export  default  App;
 ```
 Running the code now will produce a result similar to the below image:
-![Insert Image here]()
+![Insert Image here](https://drive.google.com/uc?export=download&id=14OE4i36thDIAX2htBG6lpuKKWe7rmWU9)
 
 ## Display To-do List Items
 
@@ -230,6 +236,7 @@ Running the code now will produce a result similar to the below image:
 ![Insert Image here]()
 
 ## Create, edit and delete tasks in To-Do List
+
 1. ### Create
 We will need to use React Hook to manage tasks in to-do list
 ```
@@ -269,6 +276,9 @@ onClick={() => {
 
 }}
 ```
+
+![react-to-do-list](https://drive.google.com/uc?export=download&id=1LU1H5JbEFUg2-9ZN8ErbNjhu27RvPrqr)
+
 
 3. ### Edit
 
@@ -341,7 +351,7 @@ const handleEdit = (task, id) => {
 ```
 
 Running the code now will produce a result similar to the below image:
-![Insert Image here]()
+![Insert Image here](https://drive.google.com/uc?export=download&id=1uQzry-wkATWkhC4le-tpVNiHpZNuZ2HQ)
 
 
 5. ### Delete
@@ -364,3 +374,11 @@ Don't forget to pass the props down to `ToDoList` and `Todo` functions or else i
 
 ## Deploy to Vercel
 
+First of all, you need to push your code to a repository on github.
+
+
+
+## Conclusion
+
+We have created a Todo List with React,Vite and TailwindCSS. If you want to learn more you can checkout our course at [AlgoJedi](https://algojedi.online/blog/).
+Or read more blog at [AlgoJedi blog](https://algojedi.online/blog/)
