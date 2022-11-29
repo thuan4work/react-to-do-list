@@ -22,7 +22,7 @@ const Todo = ({ task, id, handleEdit, handleDelete }) => {
         >Save</button>
       </div>:
       <div>
-        <li className="list-none w-2/3 text-left break-normal">{ task }</li>
+        <li className="list-none text-left break-normal">{ task }</li>
         <div className="flex gap-3">
             <button className="bg-green-600 text-white px-2 py-2 font-medium rounded-md" 
               onClick={() => {
